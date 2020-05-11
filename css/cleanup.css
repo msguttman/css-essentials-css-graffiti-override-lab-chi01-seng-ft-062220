@@ -4,9 +4,11 @@
   display: none;
 }
 #wall #tag-2 {
+  z-index: 0;
   display: none;
 }
 #wall .slick-wicked #tag-3 {
+  z-index: 0;
   display: none;
 }
 #wall .tag-4 {
@@ -23,22 +25,36 @@
 }
 
 
-<div id="wall">
-    <div class="tag-1"></div>
-    <div id="tag-2"></div>
-    <div id="tag-3" class="slick wicked"></div>
-    <div class="parent">
-      <div id="tag-4"></div>
-    </div>
-    <div class="parent">
-      <div id="tag-5" class="slick"></div>
-    </div>
-    <div class="parent">
-      <div></div>
-      <div>
-        <div id="tag-6"></div>
-      </div>
-    </div>
-    <div class="parent">
-      <div>
-        <div id="tag-7" class="slick"></div>
+
+
+        #wall #tag-2 {
+  background: url(../images/tag-2.png) no-repeat;
+  z-index: 6;
+  display: block;
+}
+
+div#wall #tag-3.slick {
+  background: url(../images/tag-3.png) no-repeat;
+  z-index: 5;
+  display: block;
+}
+
+#wall #tag-4 {
+  background: url(../images/tag-4.png) no-repeat;
+  z-index: 4;
+  display: block;
+}
+
+div#wall .parent #tag-5.slick {
+  background: url(../images/tag-5.png) no-repeat;
+  z-index: 3;
+  display: block;
+}
+
+div#wall div.parent div:last-child div#tag-6 {
+  background: url(../images/tag-6.png) no-repeat;
+  z-index: 2;
+  display: block;
+}
+
+body div#wall div.parent div > #tag-7.slick 
