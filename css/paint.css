@@ -29,7 +29,7 @@ body {
   z-index: 7;
   display: block;
 }
-/*
+
 #wall #tag-2 {
   background: url(../images/tag-2.png) no-repeat;
   z-index: 6;
@@ -41,7 +41,7 @@ div#wall #tag-3.slick {
   z-index: 5;
   display: block;
 }
-
+/*
 #wall #tag-4 {
   background: url(../images/tag-4.png) no-repeat;
   z-index: 4;
