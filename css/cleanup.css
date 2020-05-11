@@ -10,18 +10,18 @@
   z-index: 0;
   display: none;
 }
-#wall #tag-4 {
+#cheating #wall #tag-4 {
   display: none;
 }
-div#wall .parent #tag-5.slick {
+#cheating div#wall .parent #tag-5.slick {
   z-index: 0;
   display: none;
 }
-div#wall div.parent div:last-child div#tag-6 {
+#cheating div#wall div.parent div:last-child div#tag-6 {
   z-index: 0;
   display: none;
 }
-body div#wall div.parent div > #tag-7.slick {
+#cheating body div#wall div.parent div > #tag-7.slick {
   z-index: 0;
   display: none;
 }
