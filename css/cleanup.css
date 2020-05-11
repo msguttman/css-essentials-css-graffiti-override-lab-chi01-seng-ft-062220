@@ -1,1 +1,27 @@
 /* write your override styles here */
+
+#wall .tag-1 {
+  display: none;
+}
+
+#cheating #wall #tag-2 {
+  display: none;
+}
+#cheating div#wall #tag-3.slick {;
+  display: none;
+}
+#cheating #wall #tag-4 {
+  display: none;
+}
+
+#cheating div#wall .parent #tag-5.slick {
+  display: none;
+}
+
+#cheating div#wall div.parent div:last-child div#tag-6 {
+  display: none;
+}
+
+#cheating body div#wall div.parent div #tag-7.slick {
+  display: none;
+}
